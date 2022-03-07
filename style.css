@@ -1,0 +1,135 @@
+body, html {
+  background-color: rgb(52, 52, 52);
+  color: white;
+  position: relative;
+  height: 100vh;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+  font-family: archivo;
+  src: url(/fonts/Archivo-Regular.ttf);
+}
+
+nav {
+  background: rgb(52, 52, 52) !important;
+}
+
+.navbar-title {
+  font-family: archivo;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  display: inline-block;
+  color: white;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: rgb(202, 165, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.caption {
+  font-family: gilroy;
+  font-size: 0.8rem;
+  margin-bottom: 5%;
+  padding-top: 20%;
+}
+
+.search {
+  width: 80%;
+}
+
+.input {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(52, 52, 52);
+}
+
+.button {
+  background-color: rgb(202, 165, 0);
+  color: white;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family: archivo;
+  letter-spacing: 2px;
+}
+
+.card {
+  margin: 5% 0 5% 0;
+  background-color: rgb(86, 86, 86);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  font-family: archivo;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.more-infos {
+    color: rgb(202, 165, 0);
+    font-size: 0.7rem;
+}
+
+.description {
+    color: rgb(202, 165, 0);
+    font-size: 1rem;
+}
+
+.main {
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(86, 86, 86);
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    font-family: gilroy;
+    font-size: 0.8rem;
+}
+.card-img-top{
+  height: 30%;
+  width: 100%;
+}
+
+@media (min-width:500px) {
+  .caption {
+    padding-top: 15%;
+  }
+}
+@media (min-width:768px) {
+  .caption {
+    padding-top: 9%;
+  }
+}
+@media (min-width:1024px) {
+  .caption {
+    padding-top: 6%;
+  }
+}
