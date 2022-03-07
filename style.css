@@ -49,6 +49,7 @@ nav {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   background-color: rgb(52, 52, 52);
+  color: white;
 }
 
 .button {
@@ -132,4 +133,27 @@ footer {
   .caption {
     padding-top: 6%;
   }
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+  background-color: rgb(52, 52, 52);
+  color: white;
 }
